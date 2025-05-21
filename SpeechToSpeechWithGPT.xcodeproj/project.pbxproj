@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE1945832DDE1816006C94BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1945772DDE1816006C94BA /* AppDelegate.swift */; };
+		BE1945842DDE1816006C94BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE19457E2DDE1816006C94BA /* SceneDelegate.swift */; };
+		BE1945852DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE19457F2DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodeld */; };
+		BE1945872DDE1816006C94BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1945782DDE1816006C94BA /* Assets.xcassets */; };
+		BE1945892DDE1816006C94BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE19457B2DDE1816006C94BA /* LaunchScreen.storyboard */; };
+		BE1945902DDE1843006C94BA /* SpeechToSpeechVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE19458E2DDE1843006C94BA /* SpeechToSpeechVC.swift */; };
+		BE1945912DDE1843006C94BA /* SpeechToSpeechVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE19458D2DDE1843006C94BA /* SpeechToSpeechVC.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE19455C2DDE180E006C94BA /* SpeechToSpeechWithGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechToSpeechWithGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1945772DDE1816006C94BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1945782DDE1816006C94BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1945792DDE1816006C94BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE19457A2DDE1816006C94BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE19457E2DDE1816006C94BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE1945822DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpeechToSpeechWithGPT.xcdatamodel; sourceTree = "<group>"; };
+		BE19458D2DDE1843006C94BA /* SpeechToSpeechVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpeechToSpeechVC.storyboard; sourceTree = "<group>"; };
+		BE19458E2DDE1843006C94BA /* SpeechToSpeechVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToSpeechVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE1945712DDE1810006C94BA /* Exceptions for "SpeechToSpeechWithGPT" folder in "SpeechToSpeechWithGPT" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE19455B2DDE180E006C94BA /* SpeechToSpeechWithGPT */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE19455E2DDE180E006C94BA /* SpeechToSpeechWithGPT */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE1945712DDE1810006C94BA /* Exceptions for "SpeechToSpeechWithGPT" folder in "SpeechToSpeechWithGPT" target */,
-			);
-			path = SpeechToSpeechWithGPT;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE1945592DDE180E006C94BA /* Frameworks */ = {
@@ -45,7 +42,7 @@
 		BE1945532DDE180E006C94BA = {
 			isa = PBXGroup;
 			children = (
-				BE19455E2DDE180E006C94BA /* SpeechToSpeechWithGPT */,
+				BE1945812DDE1816006C94BA /* SpeechToSpeechWithGPT */,
 				BE19455D2DDE180E006C94BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,37 @@
 				BE19455C2DDE180E006C94BA /* SpeechToSpeechWithGPT.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1945812DDE1816006C94BA /* SpeechToSpeechWithGPT */ = {
+			isa = PBXGroup;
+			children = (
+				BE19458B2DDE181E006C94BA /* System */,
+				BE19458F2DDE1843006C94BA /* SpeechToSpeech */,
+				BE1945782DDE1816006C94BA /* Assets.xcassets */,
+				BE1945792DDE1816006C94BA /* Info.plist */,
+				BE19457B2DDE1816006C94BA /* LaunchScreen.storyboard */,
+				BE19457F2DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodeld */,
+			);
+			path = SpeechToSpeechWithGPT;
+			sourceTree = "<group>";
+		};
+		BE19458B2DDE181E006C94BA /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BE19457E2DDE1816006C94BA /* SceneDelegate.swift */,
+				BE1945772DDE1816006C94BA /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BE19458F2DDE1843006C94BA /* SpeechToSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				BE19458D2DDE1843006C94BA /* SpeechToSpeechVC.storyboard */,
+				BE19458E2DDE1843006C94BA /* SpeechToSpeechVC.swift */,
+			);
+			path = SpeechToSpeech;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE19455E2DDE180E006C94BA /* SpeechToSpeechWithGPT */,
 			);
 			name = SpeechToSpeechWithGPT;
 			packageProductDependencies = (
@@ -122,6 +147,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1945912DDE1843006C94BA /* SpeechToSpeechVC.storyboard in Resources */,
+				BE1945872DDE1816006C94BA /* Assets.xcassets in Resources */,
+				BE1945892DDE1816006C94BA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +160,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1945832DDE1816006C94BA /* AppDelegate.swift in Sources */,
+				BE1945902DDE1843006C94BA /* SpeechToSpeechVC.swift in Sources */,
+				BE1945842DDE1816006C94BA /* SceneDelegate.swift in Sources */,
+				BE1945852DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE19457B2DDE1816006C94BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE19457A2DDE1816006C94BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE1945732DDE1810006C94BA /* Debug */ = {
@@ -145,11 +188,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3422XNLB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpeechToSpeechWithGPT/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record audio";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to recognize your speech for transcription";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SpeechToSpeechVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -157,7 +203,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thirdcode.SpeechToSpeechWithGPT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murad.aihomewrok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -172,11 +218,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3422XNLB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpeechToSpeechWithGPT/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record audio";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to recognize your speech for transcription";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SpeechToSpeechVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -184,7 +233,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thirdcode.SpeechToSpeechWithGPT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murad.aihomewrok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,6 +382,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE19457F2DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE1945822DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodel */,
+			);
+			currentVersion = BE1945822DDE1816006C94BA /* SpeechToSpeechWithGPT.xcdatamodel */;
+			path = SpeechToSpeechWithGPT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE1945542DDE180E006C94BA /* Project object */;
 }
